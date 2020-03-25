@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Blackjack</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<link rel="stylesheet" href="style.css">
+	<script type="text/javascript" src="script.js" defer></script>
+</head>
+<body>
+	<div class="container">
+		<h1>Blackjack</h1>
+		<h2 id="blackjack-result">Let's Play</h2>
+
+		<div class="flex-blackjack-row-1">
+			<div id="your-box">
+				<h3>You: <span id="your-blackjack-result">0</span></h3>
+			</div>
+			<div id="dealer-box">
+				<h3>Dealer: <span id="dealer-blackjack-result">0</span></h3>
+			</div>
+		</div>
+
+		<div class="flex-backjack-row-2">
+			<div>
+				<button class="btn btn-md btn-primary mr-2" id="blackjack-hit-button">Hit</button>
+				<button class="btn btn-md btn-warning mr-2" id="blackjack-stand-button">Stand</button>
+				<button class="btn btn-md btn-danger mr-2" id="blackjack-deal-button">Deal</button>
+			</div>
+		</div>
+
+		<div class="flex-blackjack-row-3">
+			<table>
+				<tr>
+					<th>Wins</th>
+					<th>Losses</th>
+					<th>Draws</th>
+				</tr>
+				<tr>
+					<td><span id="wins">0</span></td>
+					<td><span id="losses">0</span></td>
+					<td><span id="draws">0</span></td>
+				</tr>
+			</table>
+		</div>
+	</div>
+
+
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </body>
+</body>
+</html>
